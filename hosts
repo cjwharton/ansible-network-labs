@@ -6,6 +6,7 @@ ansible_port=22
 [routers:children]
 cisco
 juniper
+PA
 
 [cisco]
 R155 ansible_host=10.1.155.10
